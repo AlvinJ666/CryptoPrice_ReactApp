@@ -1,0 +1,13 @@
+version: "3.8"
+services:
+  app:
+    build:
+      context: .
+    volumes:
+      - .:/CRYPTO
+    ports:
+      - 3000:3000
+    image: app:react-image
+    container_name: crypto_react_container
+    command: yarn start
+#discribe multiple service and aggregate for building and run

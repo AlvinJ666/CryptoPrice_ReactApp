@@ -1,0 +1,8 @@
+# ignore
+Dockerfile 
+.dockerignore 
+.gitignore
+.commands.txt
+
+#artifacts will be installed during image runing
+node_modules
